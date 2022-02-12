@@ -1,0 +1,11 @@
+### Module positions - created on Fri Feb 11 13:00:33 2022 ###
+### Printed by Pcbnew version (6.0.0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                               PosX       PosY       Rot  Side
+J1        SALIDAS            PinHeader_1x08_P2.54mm_Vertical    49.0000    52.3750    0.0000  top
+J2        HMI                PinHeader_1x08_P2.54mm_Vertical    49.0000    24.5000    0.0000  top
+J4        ENTRADAS           PinHeader_1x10_P2.54mm_Vertical     9.0000    47.8200    0.0000  top
+U1        ESP32-DEVKITC-32D  DIP2600W100P254L5400H500Q38N       32.0000    29.0000    0.0000  top
+U2        Alimentación      Bornera_1x2                         6.6761    14.5000   90.0000  top
+## End
