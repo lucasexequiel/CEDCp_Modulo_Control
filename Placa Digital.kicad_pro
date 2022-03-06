@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -368,6 +368,61 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "net",
+        "nets": [
+          "+5V",
+          "/fromMicroC_A6841CLK1",
+          "/fromMicroC_A6841ST1",
+          "/fromMicroC_A6841SerialDataIN",
+          "/fromMicroC_ADC_CONV",
+          "/fromMicroC_ADC_RD",
+          "/fromMicroC_ADC_RST",
+          "/fromMicroC_DACI2C_SCL",
+          "/fromMicroC_DACI2C_SDA",
+          "/fromMicroC_DisplaySCLK",
+          "/fromMicroC_DisplaySID",
+          "/toMicroC_ADC_BUSY",
+          "/toMicroC_ADC_DB0",
+          "/toMicroC_ADC_DB1",
+          "/toMicroC_ADC_DB2",
+          "/toMicroC_ADC_DB3",
+          "/toMicroC_ADC_DB4",
+          "/toMicroC_ADC_DB5",
+          "/toMicroC_ADC_DB6",
+          "/toMicroC_ADC_DB7",
+          "/toMicroC_Button1",
+          "/toMicroC_Button2",
+          "/toMicroC_Button3",
+          "/toMicroC_EncoderButton",
+          "/toMicroC_EncoderSignalA",
+          "/toMicroC_EncoderSignalB",
+          "/toMicroC_OverVoltageSignal",
+          "GND",
+          "unconnected-(U1-Pad1)",
+          "unconnected-(U1-Pad16)",
+          "unconnected-(U1-Pad17)",
+          "unconnected-(U1-Pad18)",
+          "unconnected-(U1-Pad2)",
+          "unconnected-(U1-Pad36)",
+          "unconnected-(U1-Pad37)",
+          "unconnected-(U1-Pad38)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
